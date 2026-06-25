@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #cdb4db;
+  text-align: center;
+}
+main h1 {
+  color: #400279;
+  font-family: "Macondo", cursive;
+  font-weight: 700;
+  font-size: 15vmin;
+  font-style: normal;
+}
+
+.container {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game {
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5vmin;
+}
+
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 16px #793f9b;
+  font-size: 8vmin;
+  color: #400279;
+  background-color: #f9f871;
+}
+
+.reset {
+  padding: 1rem;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 0 16px #793f9b;
+  background-color: #f9f871;
+  color: #400279;
+  font-family: "Macondo", cursive;
+  font-weight: 700;
+  font-size: 3vmin;
+  font-style: normal;
+  margin-bottom: 5rem;
+}
+
+.reset:hover {
+  background-color: #ed584e;
+  transition: 0.3s ease-in;
+}
+
+#new-btn{
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 16px #793f9b;
+  background-color: #f9f871;
+  color: #400279;
+  font-family: "Macondo", cursive;
+  font-weight: 700;
+  font-size: 3vmin;
+  font-style: normal;
+  margin-bottom: 2rem;
+}
+
+#new-btn:hover{
+  background-color: #6ee385;
+  transition: 0.3s ease-in;
+}
+
+#msg{
+  color:#400279;
+  font-family: "Macondo", cursive;
+  font-weight: 700;
+  font-size: 6vmin;
+  font-style: normal;
+  padding: 2rem;
+}
+
+.hide{
+  display: none;
+}
